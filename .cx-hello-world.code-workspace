@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "./service",
+			"name": "service"
+		},
+		{
+			"path": ".",
+			"name": "cx-hello-world"
+		},
+		{
+			"path": "../../",
+			"name": "github.com: Project References"
+		},
+		{
+			"path": "../../../go-patterns",
+			"name": "Reference Go Patterns"
+		}
+	],
+	"settings": {
+		"gopls": {
+			"build.directoryFilters": [
+				"-../../",
+				"+cx-hello-world"
+			]
+		}
+	}
+}
