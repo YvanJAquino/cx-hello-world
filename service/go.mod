@@ -2,7 +2,7 @@ module github.com/YvanJAquino/cx-hello-world
 
 go 1.18
 
-require github.com/googlecloudplatform/ezcx v0.0.0-20221219212428-baafa833b658
+require github.com/googlecloudplatform/ezcx v0.0.0-20230206213846-6a3a08d0b49f
 
 require (
 	cloud.google.com/go/dialogflow v1.19.0 // indirect
